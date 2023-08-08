@@ -133,7 +133,7 @@ function startQuiz(){
     nextButton.innerHTML = "Sıradaki Soru"
     showQuestion();
     timerDiv.style.display = ""
-    timeLeft = 30
+    resetTimer()
 }
 
 
@@ -166,7 +166,7 @@ function resetState() {
 function selectAnswer (e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
-    var timeLeft = 10
+    resetTimer()
     var timerElement = document.getElementById("timerRange")
 
     if(isCorrect){
@@ -207,7 +207,7 @@ function handleNextButton() {
     currentQuestionIndex++
     if(currentQuestionIndex < questions.length){
         showQuestion()
-        timeLeft = 30
+        resetTimer()
     }
     else{
         showScore();
@@ -228,7 +228,7 @@ function countdown(){
         if(currentQuestionIndex < questions.length){
         currentQuestionIndex++
         showQuestion(currentQuestionIndex)
-        timeLeft =30
+        resetTimer()
         }
         else{
             showScore()
@@ -240,5 +240,9 @@ function countdown(){
     countDownTime.innerHTML = timeLeft
     timeLeft --
 } 
+
+function resetTimer(){
+    timeLeft = 30
+}
 
 startQuiz();
