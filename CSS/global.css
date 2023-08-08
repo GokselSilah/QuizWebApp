@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #BADFE7;
+    align-items: end;
+    text-align: center;
+    padding-top: 1.25rem;
+    font-size: 2.5rem;
+}
+
+#timer {
+    display: grid;
+    text-align: center;
+    color: aqua;
+    margin-top: 40px;
+}
+
+
+#container {    
+    align-items: center;
+    height: 500 px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 150px;
+    font-size: 1.5rem;
+}
+
+#question-header {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+    background-color: #BADFE7;
+    text-align: center;
+}
+
+#question-title {
+    
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #BADFE7;
+    border-top: 0;
+    border-top-left-radius:0 ;
+    border-top-right-radius:0 ;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.questionChoice {
+    padding: 7px;
+    margin: 5px;
+    width: 100%;
+    background-color: #F6F6F2;
+    border: 0.5px solid gray;
+    border-radius: 5px;    
+}
+
+.questionChoice:hover:not([disabled]) {
+    background: lightgray;
+    cursor: pointer;
+}
+
+.questionChoice:disabled{
+    cursor: no-drop;
+}
+
+#submitButton {
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#submitButton :hover {
+    background-color: #F6F6F2;
+    border: 2px solid #6fb3b8;
+    cursor: pointer;
+}
+
+#nextQuestion {    
+    padding: 10px;
+    background-color: #6fb3b8;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;   
+    font-size: 1rem;
+    width: 100%;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
