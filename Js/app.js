@@ -1,124 +1,177 @@
 const questions = [
     {
-        question: "Türkiye uluslararası telefon kodu kaçtır?",
+        question: "Avogadro sayısı nedir?",
         answers: [
-            {text: "+91", correct: false},
-            {text: "+92", correct: false},
-            {text: "+90", correct: true},
-            {text: "+452", correct: false}
-
+            {text: "6.02 x 10^23", correct: true},
+            {text: "3.14 x 10^7", correct: false},
+            {text: "2.71 x 10^8", correct: false},
+            {text: "1.38 x 10^23", correct: false}
         ]
     },
     {
-        question: "Ankara ne zaman başkent olmuştur?",
+        question: "DNA'nın tam adı nedir?",
         answers: [
-            {text: "1919", correct: false},
-            {text: "1921", correct: false},
-            {text: "1922", correct: false},
-            {text: "1923", correct: true}
-
+            {text: "Deoksiribonükleik asit", correct: true},
+            {text: "Dinükleotit asit", correct: false},
+            {text: "Deoksiriboz asit", correct: false},
+            {text: "Dinükleer asit", correct: false}
         ]
     },
     {
-        question: "2017 yılında Türkiye'de asgari ücret kaç TL'dir?",
+        question: "İstanbul hangi yılda fethedildi?",
         answers: [
-            {text: "1350", correct: false},
-            {text: "1400", correct: true},
-            {text: "1480", correct: false},
-            {text: "1450", correct: false}
-
-        ]
-    },    {
-        question: "Türkiye uluslararası telefon kodu kaçtır?",
-        answers: [
-            {text: "+91", correct: false},
-            {text: "+92", correct: false},
-            {text: "+90", correct: true},
-            {text: "+452", correct: false}
-
+            {text: "1451", correct: false},
+            {text: "1452", correct: false},
+            {text: "1453", correct: true},
+            {text: "1454", correct: false}
         ]
     },
     {
-        question: "Ankara ne zaman başkent olmuştur?",
+        question: "Dünya'nın en kalabalık ülkesi hangisidir?",
         answers: [
-            {text: "1919", correct: false},
-            {text: "1921", correct: false},
-            {text: "1922", correct: false},
-            {text: "1923", correct: true}
-
+            {text: "Amerika", correct: false},
+            {text: "Hindistan", correct: false},
+            {text: "Çin", correct: true},
+            {text: "Endonezya", correct: false}
         ]
     },
     {
-        question: "2017 yılında Türkiye'de asgari ücret kaç TL'dir?",
+        question: "İnsan vücudunda kaç tane kemik bulunur?",
         answers: [
-            {text: "1350", correct: false},
-            {text: "1400", correct: true},
-            {text: "1480", correct: false},
-            {text: "1450", correct: false}
-
+            {text: "206", correct: true},
+            {text: "196", correct: false},
+            {text: "216", correct: false},
+            {text: "256", correct: false}
         ]
     },
     {
-        question: "Türkiye uluslararası telefon kodu kaçtır?",
+        question: "Galileo Galilei hangi yüzyılda yaşamıştır?",
         answers: [
-            {text: "+91", correct: false},
-            {text: "+92", correct: false},
-            {text: "+90", correct: true},
-            {text: "+452", correct: false}
-
+            {text: "16. Yüzyıl", correct: false},
+            {text: "15. Yüzyıl", correct: false},
+            {text: "17. Yüzyıl", correct: true},
+            {text: "18. Yüzyıl", correct: false}
         ]
     },
     {
-        question: "Ankara ne zaman başkent olmuştur?",
+        question: "Dünya'nın en yüksek dağı hangisidir?",
         answers: [
-            {text: "1919", correct: false},
-            {text: "1921", correct: false},
-            {text: "1922", correct: false},
-            {text: "1923", correct: true}
-
+            {text: "Aconcagua", correct: false},
+            {text: "Everest", correct: true},
+            {text: "K2", correct: false},
+            {text: "Kilimanjaro", correct: false}
         ]
     },
     {
-        question: "2017 yılında Türkiye'de asgari ücret kaç TL'dir?",
+        question: "İnsan DNA'sında kaç çift baz bulunur?",
         answers: [
-            {text: "1350", correct: false},
-            {text: "1400", correct: true},
-            {text: "1480", correct: false},
-            {text: "1450", correct: false}
-
-        ]
-    },    {
-        question: "Türkiye uluslararası telefon kodu kaçtır?",
-        answers: [
-            {text: "+91", correct: false},
-            {text: "+92", correct: false},
-            {text: "+90", correct: true},
-            {text: "+452", correct: false}
-
+            {text: "23", correct: true},
+            {text: "46", correct: false},
+            {text: "22", correct: false},
+            {text: "44", correct: false}
         ]
     },
     {
-        question: "Ankara ne zaman başkent olmuştur?",
+        question: "Hangi hayvanın en uzun ömrüdür?",
         answers: [
-            {text: "1919", correct: false},
-            {text: "1921", correct: false},
-            {text: "1922", correct: false},
-            {text: "1923", correct: true}
-
+            {text: "Fil", correct: false},
+            {text: "Papağan", correct: false},
+            {text: "Deniz kaplumbağası", correct: true},
+            {text: "Köpek balığı", correct: false}
         ]
     },
     {
-        question: "2017 yılında Türkiye'de asgari ücret kaç TL'dir?",
+        question: "Bilgisayar dünyasında 'CPU' ne anlama gelir?",
         answers: [
-            {text: "1350", correct: false},
-            {text: "1400", correct: true},
-            {text: "1480", correct: false},
-            {text: "1450", correct: false}
-
+            {text: "Central Processing Unit", correct: true},
+            {text: "Central Power Unit", correct: false},
+            {text: "Computer Processing Unit", correct: false},
+            {text: "Central Performance Unit", correct: false}
+        ]
+    },
+    {
+        question: "Hangi elementin sembolü 'Au' dur?",
+        answers: [
+            {text: "Argon", correct: false},
+            {text: "Alüminyum", correct: false},
+            {text: "Altın", correct: true},
+            {text: "Amonyak", correct: false}
+        ]
+    },
+    {
+        question: "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
+        answers: [
+            {text: "Venüs", correct: false},
+            {text: "Dünya", correct: false},
+            {text: "Mars", correct: true},
+            {text: "Jüpiter", correct: false}
+        ]
+    },
+    {
+        question: "Hangi devlet adamı 'Demir Perde' tabirini ilk kullanan kişidir?",
+        answers: [
+            {text: "Franklin D. Roosevelt", correct: false},
+            {text: "Winston Churchill", correct: true},
+            {text: "Joseph Stalin", correct: false},
+            {text: "Harry Truman", correct: false}
+        ]
+    },
+    {
+        question: "Osmanlı Devleti'nin kuruluş yılı hangisidir?",
+        answers: [
+            {text: "1453", correct: false},
+            {text: "1299", correct: true},
+            {text: "1071", correct: false},
+            {text: "1326", correct: false}
+        ]
+    },
+    {
+        question: "Hangi filozof 'Bilgi Güçtür' ifadesinin sahibidir?",
+        answers: [
+            {text: "Platon", correct: false},
+            {text: "Descartes", correct: false},
+            {text: "Francis Bacon", correct: true},
+            {text: "Immanuel Kant", correct: false}
+        ]
+    },
+    {
+        question: "Hangi yazar '1984' adlı eserin yazarıdır?",
+        answers: [
+            {text: "Fyodor Dostoyevski", correct: false},
+            {text: "Ernest Hemingway", correct: false},
+            {text: "George Orwell", correct: true},
+            {text: "Franz Kafka", correct: false}
+        ]
+    },
+    {
+        question: "Pi sayısının virgülden sonraki ilk 3 hanesi nedir?",
+        answers: [
+            {text: "141", correct: true},
+            {text: "159", correct: false},
+            {text: "123", correct: false},
+            {text: "111", correct: false}
+        ]
+    },
+    {
+        question: "Hangi sanatçı 'Mona Lisa' tablosunun yaratıcısıdır?",
+        answers: [
+            {text: "Pablo Picasso", correct: false},
+            {text: "Vincent van Gogh", correct: false},
+            {text: "Leonardo da Vinci", correct: true},
+            {text: "Michelangelo", correct: false}
+        ]
+    },
+    {
+        question: "Hangi ülke Asya ve Avrupa kıtaları üzerinde topraklara sahiptir?",
+        answers: [
+            {text: "Almanya", correct: false},
+            {text: "Çin", correct: false},
+            {text: "Türkiye", correct: true},
+            {text: "İspanya", correct: false}
         ]
     }
-
 ];
+
 
 const questionElement = document.getElementById("question-header")
 const answerButton = document.getElementById("question-title")
