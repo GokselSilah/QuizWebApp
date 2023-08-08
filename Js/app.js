@@ -169,7 +169,17 @@ const questions = [
             {text: "Türkiye", correct: true},
             {text: "İspanya", correct: false}
         ]
+    },
+    {
+        question: "Hangi deniz seviyesinin altında yer alan en alçak ülke hangisidir?",
+        answers: [
+            {text: "Hollanda", correct: true},
+            {text: "İsviçre", correct: false},
+            {text: "Norveç", correct: false},
+            {text: "İsveç", correct: false}
+        ]
     }
+    
 ];
 
 
