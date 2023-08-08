@@ -264,6 +264,7 @@ function handleNextButton() {
     }
     else{
         showScore();
+        timerDiv.style.display = "none"
     }
 }
 
