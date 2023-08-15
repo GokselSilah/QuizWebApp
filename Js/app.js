@@ -251,7 +251,7 @@ nextButton.addEventListener("click",()=> {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `${questions.length} ' sorudan ${score} tane doğru bildiniz.`
+    questionElement.innerHTML = `${questions.length} ' sorudan ${score} tane doğru bildiniz. ${questions.length-score} tane soruyu yanlış çözdünüz`
     nextButton.innerHTML = "Tekrar Oyna"
     nextButton.style.display = "block"
 }
